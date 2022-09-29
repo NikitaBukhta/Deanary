@@ -12,7 +12,3 @@ CREATE TABLE STUDENTS(
 	entryYear smallint NOT NULL,
 	faculty nvarchar(64) NOT NULL
 );
-
-GO
-
-SELECT * FROM STUDENTS

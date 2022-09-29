@@ -9,7 +9,3 @@ CREATE TABLE MARKS(
 	max_mark_number int NOT NULL,
 	differentiated bit
 );
-
-GO
-
-SELECT * FROM MARKS;
