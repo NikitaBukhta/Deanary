@@ -2,9 +2,16 @@ USE DEANARYdb
 
 GO
 
-INSERT SUBJECTS VALUES(
-	'Math',
-	'Design',
-	'Codding',
-	'Informatic'
-);
+TRUNCATE TABLE SUBJECTS
+
+GO
+
+INSERT SUBJECTS VALUES
+	('Math'),
+	('Design'),
+	('Codding'),
+	('Informatic')
+
+GO
+
+SELECT * FROM SUBJECTS
