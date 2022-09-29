@@ -2,10 +2,6 @@ USE DEANARYdb
 
 GO
 
-DROP TABLE STUDENTS
-
-GO
-
 CREATE TABLE STUDENTS(
     id int NOT NULL IDENTITY (1, 1)	PRIMARY KEY,
 	creditBookNumber int NOT NULL UNIQUE,
@@ -16,7 +12,3 @@ CREATE TABLE STUDENTS(
 	entryYear smallint NOT NULL,
 	faculty nvarchar(64) NOT NULL
 );
-
-GO
-
-SELECT * FROM STUDENTS

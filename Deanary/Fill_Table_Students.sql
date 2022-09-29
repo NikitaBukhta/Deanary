@@ -2,6 +2,10 @@ USE DEANARYdb
 
 GO
 
+TRUNCATE TABLE STUDENTS
+
+GO
+
 -- Date entry: mm-dd-yyyy;
 INSERT STUDENTS VALUES
 	(1, 'Petro', 'Kostenko', 'Nikitich', '10/12/2003', 2020, 'Software Engineer'),
@@ -19,3 +23,7 @@ INSERT STUDENTS VALUES
 	(13, 'Elizaveta', 'Nogova', 'Nikitivna', '11/26/2003', 2020, 'Data Since'),
 	(14, 'Daria', 'Puhovenko', 'Evgenevna', '12/25/2004', 2021, 'Software Engineer'),
 	(15, 'Vladislav', 'Bistrogan', 'Petrovich', '01/24/2002', 2019, 'Data Since')
+
+GO
+
+SELECT * FROM STUDENTS

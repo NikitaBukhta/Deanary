@@ -9,7 +9,3 @@ CREATE TABLE TEACHERS(
 	middleName nvarchar(64) NULL,
 	grade nvarchar(32) NULL
 );
-
-GO
-
-SELECT * FROM TEACHERS
