@@ -7,9 +7,9 @@ TRUNCATE TABLE MARKS
 GO
 
 INSERT MARKS VALUES
-	('Bad', 0, 59, 0),
-	('OK', 60, 73, 1),
-	('Good', 74, 89, 1),
-	('Excelent', 90, 100, 1)
+	('passed', 60, 100, 1),
+	('OK', 60, 73, 0),
+	('Good', 74, 89, 0),
+	('Excelent', 90, 100, 0)
 
 SELECT * FROM MARKS
