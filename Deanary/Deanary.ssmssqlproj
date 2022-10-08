@@ -31,6 +31,12 @@
           <AssociatedConnUserName />
           <FullPath>Create_Table_Marks.sql</FullPath>
         </FileNode>
+        <FileNode Name="Create_Table_Record_Book.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-42EC81I:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-42EC81I</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create_Table_Record_Book.sql</FullPath>
+        </FileNode>
         <FileNode Name="Create_Table_Students.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-42EC81I:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-42EC81I</AssociatedConnSrvName>
@@ -49,11 +55,23 @@
           <AssociatedConnUserName />
           <FullPath>Create_Table_Teachers.sql</FullPath>
         </FileNode>
+        <FileNode Name="Create_View_Record_Book.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-42EC81I:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-42EC81I</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create_View_Record_Book.sql</FullPath>
+        </FileNode>
         <FileNode Name="Fill_Table_Marks.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-42EC81I:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-42EC81I</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Fill_Table_Marks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fill_Table_Record_Book.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-42EC81I:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-42EC81I</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Fill_Table_Record_Book.sql</FullPath>
         </FileNode>
         <FileNode Name="Fill_Table_Students.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-42EC81I:True</AssociatedConnectionMoniker>
