@@ -25,7 +25,7 @@ INNER JOIN
 		AND marks.min_mark_number <= mark
 		AND mark <= marks.max_mark_number
 INNER JOIN 
-	TEACHERS AS teacher 
+	TEACHERS AS teacher
 		ON teacher.id = id_teacher
 
 GO
