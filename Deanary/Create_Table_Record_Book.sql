@@ -14,5 +14,6 @@ CREATE TABLE RECORD_BOOK(
 	id_subject tinyint references SUBJECTS NOT NULL,
 	id_teacher int references TEACHERS NOT NULL,
 	pass_date date NOT NULL,
-	differentiated bit 
+	differentiated bit
+	unique(id_student, id_subject, semester)
 );
