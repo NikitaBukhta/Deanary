@@ -3,7 +3,7 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="DESKTOP-42EC81I:DESKTOP-42EC81I\nikbu">
+        <ConnectionNode Name="DESKTOP-42EC81I:DESKTOP-42EC81I\Nikita">
           <Created>2022-09-07T21:00:13.3509187+03:00</Created>
           <Type>SQL</Type>
           <Server>DESKTOP-42EC81I</Server>
@@ -90,6 +90,30 @@
           <AssociatedConnSrvName>DESKTOP-42EC81I</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Fill_Table_Teachers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Procedure_Delete_Data_Base.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-42EC81I:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-42EC81I</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Procedure_Delete_Data_Base.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Procedure_DeleteStudent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-42EC81I:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-42EC81I</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Procedure_DeleteStudent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Procedure_DeleteSubject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-42EC81I:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-42EC81I</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Procedure_DeleteSubject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Procedure_DeleteTeachers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-42EC81I:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-42EC81I</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Procedure_DeleteTeachers.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

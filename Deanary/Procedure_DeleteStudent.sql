@@ -16,21 +16,21 @@ BEGIN
 	IF @is_cascade_delete = 1 BEGIN
 		DELETE FROM RECORD_BOOK WHERE id_student = @id_student
 		DELETE FROM STUDENTS WHERE id = @id_student
-		SET @error = 'Successfull'
+		SET @error = NULL
 	END
 	ELSE BEGIN
 		DECLARE @occurence tinyint
-		SET @occurence = (SELECT occurence=COUNT(*) FROM RECORD_BOOK WHERE id = @id_student)
+		SET @occurence = (SELECT occurence=COUNT(*) FROM RECORD_BOOK WHERE id_student = @id_student)
 
 		IF (@occurence = 0) BEGIN
 			DELETE FROM STUDENTS WHERE id = @id_student
-			SET @error = 'Successfull'
+			SET @error = NULL
 		END
 		ELSE BEGIN
 			SET @error = 'Count of occurences in record book: ' + STR(@occurence)
 		END
 
-		SELECT @error
+		--SELECT @error
 	END
 END
 
@@ -39,9 +39,9 @@ GO
 -- Remove check --
 DECLARE @id_student tinyint
 DECLARE @error nvarchar(128)
-SET @id_student = 0
+SET @id_student = 2
 
-EXEC DeleteStudent @id_student, 0, @error
+EXEC DeleteStudent @id_student, 0, @error output
 
 SELECT @error
 
